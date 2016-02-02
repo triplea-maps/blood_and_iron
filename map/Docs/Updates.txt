@@ -1,0 +1,31 @@
+Updates
+
+1.03
+New Canal: Straights of Messina. (Must control Sicily to pass through)
+Hungary-Romania Split into two territories and complex added to Romania
+Finland prodution reduced 1 ipc, 1 ipc added to Hungary
+Lower Axis changed to Minor Axis
+One additional Minor Axis infantry in Libya
+One additional Minor Axis Artillery in Hungary
+One additional Minor Axis Infantry in Hungary 
+One fewer  Minor Axis Infantry in Bulgaria
+One additional Japanese Infantry in Korea
+One Japanese Fighter moved from Manchuria to Kwangtung
+Southern France Connected to Sea Zone 32
+Border of Black Sea Sea Zone moved
+Border Graphics Cleaned
+National Colors tweaked
+Sea Zones renamed
+Help Documents included in zip
+
+1.02
+Islands contained within sea zones fully accesable
+
+Stats now reflect turn order
+
+Baltic States no longer connected to Belarussia
+India connected XLIII
+Northwest Austrilia connected XCV
+Central US connected to Southeast US
+Turkey connected to Bulgaria and Greece
+
