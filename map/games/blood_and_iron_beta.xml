@@ -1081,654 +1081,654 @@
     <playerProduction player="Soviet_Union" frontier="production"/>
     <playerProduction player="Minor_Axis_Powers" frontier="production"/>
   </production>
-  <attatchmentList>
+  <attachmentList>
     <!-- Tech -->
     <!-- Minor_Axis_Powers -->
-    <attatchment name="techAttatchment" attatchTo="Minor_Axis_Powers" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="Minor_Axis_Powers" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Germany -->
-    <attatchment name="techAttatchment" attatchTo="Germany" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Japan -->
-    <attatchment name="techAttatchment" attatchTo="Japan" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Russia -->
-    <attatchment name="techAttatchment" attatchTo="Soviet_Union" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="Soviet_Union" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- British -->
-    <attatchment name="techAttatchment" attatchTo="United_Kingdom" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="United_Kingdom" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Americans -->
-    <attatchment name="techAttatchment" attatchTo="United_States" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+    <attachment name="techAttachment" attachTo="United_States" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
       <option name="heavyBomber" value="true"/>
       <option name="jetPower" value="false"/>
       <option name="industrialTechnology" value="false"/>
       <option name="superSub" value="false"/>
       <option name="rocket" value="false"/>
       <option name="longRangeAir" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Units -->
     <!-- Infantry -->
-    <attatchment name="unitAttatchment" attatchTo="infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Artillery -->
-    <attatchment name="unitAttatchment" attatchTo="artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="3"/>
       <option name="attack" value="1"/>
       <option name="defense" value="3"/>
       <option name="artillery" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Armour -->
-    <attatchment name="unitAttatchment" attatchTo="armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
-    </attatchment>
+    </attachment>
     <!-- Fighter -->
-    <attatchment name="unitAttatchment" attatchTo="fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
       <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="4"/>
-    </attatchment>
+    </attachment>
     <!-- Bomber -->
-    <attatchment name="unitAttatchment" attatchTo="bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="6"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
       <option name="isStrategicBomber" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Transport -->
-    <attatchment name="unitAttatchment" attatchTo="transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="transportCapacity" value="5"/>
       <option name="attack" value="0"/>
       <option name="defense" value="1"/>
-    </attatchment>
+    </attachment>
     <!-- Battle Ship -->
-    <attatchment name="unitAttatchment" attatchTo="battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="canBombard" value="true"/>
       <option name="isTwoHit" value="false"/>
-    </attatchment>
+    </attachment>
     <!-- Destroyer -->
-    <attatchment name="unitAttatchment" attatchTo="destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="3"/>
       <option name="isDestroyer" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Carrier -->
-    <attatchment name="unitAttatchment" attatchTo="carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="carrierCapacity" value="2"/>
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="3"/>
-    </attatchment>
+    </attachment>
     <!-- Submarine -->
-    <attatchment name="unitAttatchment" attatchTo="submarine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isSub" value="true"/>
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-    </attatchment>
+    </attachment>
     <!-- Factory -->
-    <attatchment name="unitAttatchment" attatchTo="factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- AA Gun -->
-    <attatchment name="unitAttatchment" attatchTo="aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isAA" value="true"/>
       <option name="transportCost" value="3"/>
       <option name="movement" value="1"/>
-    </attatchment>
+    </attachment>
     <!-- Mech -->
-    <attatchment name="unitAttatchment" attatchTo="mech" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="mech" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-    </attatchment>
+    </attachment>
     <!-- Divebomber -->
-    <attatchment name="unitAttatchment" attatchTo="divebomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="divebomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="4"/>
       <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="attack" value="4"/>
       <option name="defense" value="3"/>
-    </attatchment>
+    </attachment>
     <!-- Cruiser -->
-    <attatchment name="unitAttatchment" attatchTo="cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="isSea" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="canBombard" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Territories -->
-    <attatchment name="territoryAttatchment" attatchTo="Nunavut" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Nunavut" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Ontario" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ontario" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Quebec" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Quebec" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
+    </attachment>
     <!-- United States Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="Northeast US" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Northeast US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="capital" value="United_States"/>
       <option name="victoryCity" value="true"/>
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Central US" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Central US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Southeast US" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Southeast US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Central America" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Central America" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Mexico" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Indes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Indes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Brazil" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Northern Ireland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Northern Ireland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Scotland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Scotland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
+    </attachment>
     <!-- United Kingdom Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="England-Wales" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="England-Wales" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="capital" value="United_Kingdom"/>
       <option name="victoryCity" value="true"/>
       <option name="production" value="8"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Norway" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Finland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Finland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Low Countries" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Low Countries" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Northwest France" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Northwest France" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Southern France" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Southern France" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Rhine-Ruhr" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Rhine-Ruhr" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
-    </attatchment>
+    </attachment>
     <!-- German Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="Germany" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="9"/>
       <option name="capital" value="Germany"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Poland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Poland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Prussia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Austria-Checkoslovakia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Austria-Checkoslovakia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Romania" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Romania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hungary" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hungary" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bulgaria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Albania" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Albania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Yugoslavia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Yugoslavia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Greece" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Greece" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Crete" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Crete" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
+    </attachment>
     <!--Russian Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="Russia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Soviet_Union"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kazakh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kazakh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Uzbek" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Uzbek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Novobirsk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Novobirsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Siberia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Siberia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Irkusk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Irkusk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Burytia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Burytia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Amur" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Soviet Far East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kamchatka" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kamchatka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Dzugarian Basin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Dzugarian Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
+    </attachment>
     <!-- Lower Axis Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="Northern Italy" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Northern Italy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="Minor_Axis_Powers"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Southern Italy" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Southern Italy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sicily" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sicily" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sardinia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sardinia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Gibralta" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gibralta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Morocco-Algeria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Morocco-Algeria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Libya" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Libya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tobruk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Egypt" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Egypt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Anglo Egypt-Sudan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Anglo Egypt-Sudan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="French Equatorial Africa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="French Equatorial Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="French West Africa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="French West Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Guinea Coast" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Guinea Coast" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Belgian Congo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Belgian Congo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Italian East Africa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Italian East Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kenya" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kenya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Rhodesia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Rhodesia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Africa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="French Madigascar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="French Madigascar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Syria-Jordan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Syria-Jordan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Iran-Iraq" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Iran-Iraq" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Persia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Persia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="India" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="India" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bombay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bombay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Burma" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Burma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Indo China" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Indo China" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Thialand" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Thialand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Murmansk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Murmansk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Leningrad" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Leningrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Karelia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Karelia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Archangel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Archangel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Baltic States" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baltic States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Minsk" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Minsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Poland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Poland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Belarussia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Belarussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Russia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Russia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Ukraine" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ukraine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Donbas" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Donbas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Stalingrad" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Stalingrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Caucus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Caucus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tver" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tver" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
+    </attachment>
     <!-- Japan Capital -->
-    <attatchment name="territoryAttatchment" attatchTo="Southern Japan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Southern Japan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Japan"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Northern Japan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Northern Japan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Midway" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Midway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hawiian Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hawiian Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="victoryCity" value="true"/>
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Wake Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Wake Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Okinawa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Okinawa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Philipines" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Philipines" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Caroline Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Caroline Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Indes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Indes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Borneo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Borneo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Papua" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Papua" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Papua New Guinea" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Papua New Guinea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Solomons" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Solomons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Solomons" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Solomons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="New Zealand" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="New Zealand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Northwest Australia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Northwest Australia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Melbourne-Sidney" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Melbourne-Sidney" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Alutians" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Alutians" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Alaska" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Alaska" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Northwest Territories" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Northwest Territories" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Southwest Canada" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Southwest Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Pacific Northwest" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Pacific Northwest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Coast" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Coast" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="victoryCity" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Great Plains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Great Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Southwest US" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Southwest US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Greenland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Greenland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Siberia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Colombia-Venezuela" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Siberia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Peru" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Colombia-Venezuela" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Argentina" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Peru" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Rio De Oro" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Argentina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Mozambique" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Rio De Oro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Angola" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mozambique" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Saudi Arabia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Angola" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Turkey" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Saudi Arabia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Afganastan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Himalaya" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Afganastan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Mongolia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Himalaya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Prypet" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mongolia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Ireland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Prypet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sweden" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ireland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Switzerland" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sweden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Portugal-Spain" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Switzerland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sahara" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Portugal-Spain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="isImpassible" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tarim Basin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sahara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tarim Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Central China" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Central China" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Yellow River Region" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Yellow River Region" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sichuan Basin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sichuan Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North China Plain" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North China Plain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kwangtung" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kwangtung" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Manchuria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Manchuria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Korea" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Korea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
-    </attatchment>
+    </attachment>
     <!-- canals -->
-    <attatchment name="canalAttatchment" attatchTo="Mediterranean - 37 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment" attachTo="Mediterranean - 37 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Suez Canal"/>
       <option name="landTerritories" value="Egypt:Syria-Jordan"/>
-    </attatchment>
-    <attatchment name="canalAttatchment" attatchTo="Red Sea - 39 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Red Sea - 39 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Suez Canal"/>
       <option name="landTerritories" value="Egypt:Syria-Jordan"/>
-    </attatchment>
-    <attatchment name="canalAttatchment" attatchTo="Caribbean - 18 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Caribbean - 18 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Panama Canal"/>
       <option name="landTerritories" value="Central America"/>
-    </attatchment>
-    <attatchment name="canalAttatchment" attatchTo="South Pacific - 100 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    </attachment>
+    <attachment name="canalAttachment" attachTo="South Pacific - 100 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Panama Canal"/>
       <option name="landTerritories" value="Central America"/>
-    </attatchment>
-    <attatchment name="canalAttatchment" attatchTo="Mediterranean - 32 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Mediterranean - 32 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Straights of Messina"/>
       <option name="landTerritories" value="Sicily"/>
-    </attatchment>
-    <attatchment name="canalAttatchment" attatchTo="Mediterranean - 33 Sea Zone" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+    </attachment>
+    <attachment name="canalAttachment" attachTo="Mediterranean - 33 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Straights of Messina"/>
       <option name="landTerritories" value="Sicily"/>
-    </attatchment>
-  </attatchmentList>
+    </attachment>
+  </attachmentList>
   <initialize>
     <ownerInitialize>
       <!-- Minor_Axis_Powers Owned Territories -->
