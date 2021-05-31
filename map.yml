@@ -1,0 +1,3 @@
+map_name: blood_and_iron
+games:
+- {game_name: Blood and Iron, file_name: blood_and_iron_beta.xml}
